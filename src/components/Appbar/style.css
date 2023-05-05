@@ -1,0 +1,44 @@
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    flex-direction: column;
+
+
+
+    background: white;
+    /* radial-gradient(circle farthest-corner at top right, #4d6273,transparent), linear-gradient(120deg, #b8c0c2,#899299) */
+}
+
+.row {
+
+}
+
+.logo {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    font-family: 'Darumadrop One', cursive;
+}
+
+.select {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+}
+
+.controls {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        width: 50%;
+        border-radius: 10px;
+        border: 4px solid palevioletred;
+    }
+}

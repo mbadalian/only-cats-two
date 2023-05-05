@@ -1,0 +1,16 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.gallery-item {
+    flex-basis: calc(50% - 10px);
+    object-fit: cover;
+}
+
+.gallery-item-image {
+    flex: 50%;
+    width: 100%;
+}
